@@ -502,6 +502,7 @@ void runNS() {
 
     ofs.close();
     is_ptr->Close();
+    delete is_ptr;
   }
 }
 
